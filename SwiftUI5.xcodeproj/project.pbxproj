@@ -12,6 +12,7 @@
 		C382DC7E2A321A1600F53332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C382DC7D2A321A1600F53332 /* Assets.xcassets */; };
 		C382DC812A321A1600F53332 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C382DC802A321A1600F53332 /* Preview Assets.xcassets */; };
 		C382DC882A321A7D00F53332 /* SwiftDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C382DC872A321A7D00F53332 /* SwiftDataView.swift */; };
+		C382DCAE2A326F5400F53332 /* PagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C382DCAD2A326F5400F53332 /* PagingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C382DC7D2A321A1600F53332 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C382DC802A321A1600F53332 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C382DC872A321A7D00F53332 /* SwiftDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataView.swift; sourceTree = "<group>"; };
+		C382DCAD2A326F5400F53332 /* PagingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				C382DC792A321A1300F53332 /* SwiftUI5App.swift */,
 				C382DC7B2A321A1300F53332 /* ContentView.swift */,
+				C382DCAD2A326F5400F53332 /* PagingView.swift */,
 				C382DC7D2A321A1600F53332 /* Assets.xcassets */,
 				C382DC7F2A321A1600F53332 /* Preview Content */,
 				C382DC872A321A7D00F53332 /* SwiftDataView.swift */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C382DCAE2A326F5400F53332 /* PagingView.swift in Sources */,
 				C382DC882A321A7D00F53332 /* SwiftDataView.swift in Sources */,
 				C382DC7C2A321A1300F53332 /* ContentView.swift in Sources */,
 				C382DC7A2A321A1300F53332 /* SwiftUI5App.swift in Sources */,
