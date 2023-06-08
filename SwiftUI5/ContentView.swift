@@ -1,0 +1,27 @@
+//
+//  ContentView.swift
+//  SwiftUI5
+//
+//  Created by sebastiao Gazolla Costa Junior on 08/06/23.
+//
+
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        NavigationStack{
+            List{
+                NavigationLink("Swift Data") {
+                    SwiftDataView()
+                        .modelContainer(for:Person.self)
+                }
+            }
+            .navigationTitle("SwiftUI 5")
+        }
+        
+    }
+}
+
+#Preview {
+    ContentView()
+}
