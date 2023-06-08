@@ -15,6 +15,12 @@ struct ContentView: View {
                     SwiftDataView()
                         .modelContainer(for:Person.self)
                 }
+                NavigationLink("ScrollView Paging") {
+                    PagingView()
+                }
+                NavigationLink("ScrollView Positon") {
+                    PositionView()
+                }
             }
             .navigationTitle("SwiftUI 5")
         }
