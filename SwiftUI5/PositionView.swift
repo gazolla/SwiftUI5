@@ -40,7 +40,7 @@ struct PositionView: View {
                 if let scrollPosition {
                     Text(scrollPosition.name ?? "Other Color")
                         .font(.title.bold())
-                        .offset(y: -150)
+                        .offset(y: -100)
                 }
             }
         }

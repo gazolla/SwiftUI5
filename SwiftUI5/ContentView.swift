@@ -21,6 +21,12 @@ struct ContentView: View {
                 NavigationLink("ScrollView Positon") {
                     PositionView()
                 }
+                NavigationLink("ScrollView Transition") {
+                    STransitionView()
+                }
+                NavigationLink("Custom Transition") {
+                    TransitionView()
+                }
             }
             .navigationTitle("SwiftUI 5")
         }

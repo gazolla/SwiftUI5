@@ -14,6 +14,8 @@
 		C382DC882A321A7D00F53332 /* SwiftDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C382DC872A321A7D00F53332 /* SwiftDataView.swift */; };
 		C382DCAE2A326F5400F53332 /* PagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C382DCAD2A326F5400F53332 /* PagingView.swift */; };
 		C382DCB02A32721600F53332 /* PositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C382DCAF2A32721600F53332 /* PositionView.swift */; };
+		C382DCB22A32A5E300F53332 /* STransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C382DCB12A32A5E300F53332 /* STransitionView.swift */; };
+		C382DCB42A32A7B600F53332 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C382DCB32A32A7B600F53332 /* TransitionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		C382DC872A321A7D00F53332 /* SwiftDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataView.swift; sourceTree = "<group>"; };
 		C382DCAD2A326F5400F53332 /* PagingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingView.swift; sourceTree = "<group>"; };
 		C382DCAF2A32721600F53332 /* PositionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionView.swift; sourceTree = "<group>"; };
+		C382DCB12A32A5E300F53332 /* STransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STransitionView.swift; sourceTree = "<group>"; };
+		C382DCB32A32A7B600F53332 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,11 +63,13 @@
 			children = (
 				C382DC792A321A1300F53332 /* SwiftUI5App.swift */,
 				C382DC7B2A321A1300F53332 /* ContentView.swift */,
+				C382DCB12A32A5E300F53332 /* STransitionView.swift */,
 				C382DCAF2A32721600F53332 /* PositionView.swift */,
 				C382DCAD2A326F5400F53332 /* PagingView.swift */,
 				C382DC7D2A321A1600F53332 /* Assets.xcassets */,
 				C382DC7F2A321A1600F53332 /* Preview Content */,
 				C382DC872A321A7D00F53332 /* SwiftDataView.swift */,
+				C382DCB32A32A7B600F53332 /* TransitionView.swift */,
 			);
 			path = SwiftUI5;
 			sourceTree = "<group>";
@@ -149,8 +155,10 @@
 				C382DCB02A32721600F53332 /* PositionView.swift in Sources */,
 				C382DCAE2A326F5400F53332 /* PagingView.swift in Sources */,
 				C382DC882A321A7D00F53332 /* SwiftDataView.swift in Sources */,
+				C382DCB42A32A7B600F53332 /* TransitionView.swift in Sources */,
 				C382DC7C2A321A1300F53332 /* ContentView.swift in Sources */,
 				C382DC7A2A321A1300F53332 /* SwiftUI5App.swift in Sources */,
+				C382DCB22A32A5E300F53332 /* STransitionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
