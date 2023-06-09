@@ -6,13 +6,47 @@
 //
 
 import SwiftUI
-
+//we can use ControlGroup in context menus in SwiftUI to show a horizontal strip of action buttons.
 struct ContextMenuView: View {
+    @State private var isButtonContextMenuVisible = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack {
+            
+            Text("Long Press Me")
+                .contextMenu {
+                    ControlGroup{
+                        Button{
+                            
+                        } label: {
+                            Label("Cut", systemImage: "scissors")
+                        }
+                        
+                        Button{
+                        } label:{
+                            Label("Copy", systemImage: "doc.on.doc")
+                        }
+                        
+                        Button{
+                        } label: {
+                            Label("Paste", systemImage: "doc.on.clipboard")
+                        }
+                        
+                        Button(role: .destructive) {
+                        } label: {
+                            Label("Delete", systemImage: "trash")
+                        }
+                    }
+                }
+        }
     }
 }
 
 #Preview {
     ContextMenuView()
 }
+
+
+
+
+    

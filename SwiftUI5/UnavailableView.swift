@@ -7,9 +7,21 @@
 
 import SwiftUI
 
+//ContentUnavailableView allows you to handle cases of networking failure or empty search results. It’s essential to explain an empty state and its cause to your users.
+
 struct UnavailableView: View {
+    @State private var emptyList:[String] = []
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List{
+            ForEach(emptyList, id:\.self){ item in
+                Text(item)
+            }
+        }
+        .overlay {
+            if emptyList.isEmpty {
+                ContentUnavailableView.search
+            }
+        }
     }
 }
 

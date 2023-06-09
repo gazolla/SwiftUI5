@@ -15,6 +15,18 @@ struct ContentView: View {
                     SwiftDataView()
                         .modelContainer(for:Person.self)
                 }
+                NavigationLink("Custom Transition") {
+                    TransitionView()
+                }
+                NavigationLink("Date Format") {
+                    DateFormat()
+                }
+                NavigationLink("Context Menu View") {
+                    ContextMenuView()
+                }
+                NavigationLink("Unavailable View") {
+                    UnavailableView()
+                }
                 NavigationLink("ScrollView Paging") {
                     PagingView()
                 }
@@ -23,9 +35,6 @@ struct ContentView: View {
                 }
                 NavigationLink("ScrollView Transition") {
                     STransitionView()
-                }
-                NavigationLink("Custom Transition") {
-                    TransitionView()
                 }
             }
             .navigationTitle("SwiftUI 5")
