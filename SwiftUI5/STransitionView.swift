@@ -22,6 +22,7 @@ struct STransitionView: View {
                         .scrollTransition(topLeading: .interactive, bottomTrailing: .interactive) { view, phase in
                             view
                                 .opacity(1 - (phase.value < 0 ? -phase.value : phase.value))
+                                .scaleEffect(phase.isIdentity ? 1 : 0.6)
                         }
                 }
             }

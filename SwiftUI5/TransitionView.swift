@@ -34,6 +34,8 @@ struct MyTransition:Transition {
                 .init(degrees: phase.value * (phase == .willAppear ? 90 : -90)),
                          axis: (x: 1.0, y: 0.0, z: 0.0)
             )
+            .opacity(1 - (phase.value < 0 ? -phase.value : phase.value))
+            .scaleEffect(phase.isIdentity ? 1 : 0.6)
     }
 }
 
