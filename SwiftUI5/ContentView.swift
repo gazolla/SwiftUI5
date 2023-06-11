@@ -11,6 +11,9 @@ struct ContentView: View {
     var body: some View {
         NavigationStack{
             List{
+                NavigationLink("Observable") {
+                    ObservableView()
+                }
                 NavigationLink("Swift Data") {
                     SwiftDataView()
                         .modelContainer(for:Person.self)
