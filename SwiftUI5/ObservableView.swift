@@ -10,6 +10,7 @@ import SwiftData
 
 struct ObservableView: View {
     @Bindable var user: User = .init()
+    @State private var showAlert:Bool = false
     var body: some View {
         
         NavigationStack {
@@ -21,13 +22,15 @@ struct ObservableView: View {
                     }
                     Section {
                         Button("Login"){
-                            print(user.name)
-                            print(user.pwd)
+                            showAlert.toggle()
                         }
                     }
                 }
             }
             .navigationTitle("Login")
+            .alert(isPresented: $showAlert, content: {
+                Alert(title:Text("Result"), message: Text("\(user.name)  \(user.pwd)"))
+            })
             
         }
         

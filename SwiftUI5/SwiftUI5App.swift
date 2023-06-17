@@ -13,6 +13,5 @@ struct SwiftUI5App: App {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(for: Person.self)
     }
 }

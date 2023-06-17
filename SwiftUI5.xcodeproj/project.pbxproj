@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C37DC82C2A3CEC4F00CA9EC1 /* AnimateSymbolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37DC82B2A3CEC4F00CA9EC1 /* AnimateSymbolsView.swift */; };
 		C382DC7A2A321A1300F53332 /* SwiftUI5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C382DC792A321A1300F53332 /* SwiftUI5App.swift */; };
 		C382DC7C2A321A1300F53332 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C382DC7B2A321A1300F53332 /* ContentView.swift */; };
 		C382DC7E2A321A1600F53332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C382DC7D2A321A1600F53332 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C37DC82B2A3CEC4F00CA9EC1 /* AnimateSymbolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateSymbolsView.swift; sourceTree = "<group>"; };
 		C382DC762A321A1300F53332 /* SwiftUI5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C382DC792A321A1300F53332 /* SwiftUI5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI5App.swift; sourceTree = "<group>"; };
 		C382DC7B2A321A1300F53332 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				C382DCB72A32D48600F53332 /* ContextMenuView.swift */,
 				C382DCBB2A33BB7100F53332 /* screenshot.png */,
 				C382DCBD2A33BFA200F53332 /* ObservableView.swift */,
+				C37DC82B2A3CEC4F00CA9EC1 /* AnimateSymbolsView.swift */,
 			);
 			path = SwiftUI5;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				C382DCB82A32D48600F53332 /* ContextMenuView.swift in Sources */,
 				C382DCBA2A32D90000F53332 /* UnavailableView.swift in Sources */,
 				C382DC7A2A321A1300F53332 /* SwiftUI5App.swift in Sources */,
+				C37DC82C2A3CEC4F00CA9EC1 /* AnimateSymbolsView.swift in Sources */,
 				C382DCB22A32A5E300F53332 /* STransitionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
