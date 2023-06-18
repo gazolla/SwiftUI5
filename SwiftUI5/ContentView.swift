@@ -11,6 +11,9 @@ struct ContentView: View {
     var body: some View {
         NavigationStack{
             List{
+                NavigationLink("SFSymbol Animation") {
+                    AnimateSymbolsView()
+                }
                 NavigationLink("Observable") {
                     ObservableView()
                 }
