@@ -19,7 +19,7 @@ struct AnimateSymbolsView: View {
                 
                 Image(systemName: "iphone.radiowaves.left.and.right")
                     .font(.largeTitle)
-                    .symbolEffect(.pulse, options: .repeat(4), value:animate)
+                    .symbolEffect(.variableColor.iterative, options: .repeat(4), value:animate)
                 
                 Image(systemName: "wifi.router")
                     .font(.largeTitle)
